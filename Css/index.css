@@ -1,0 +1,113 @@
+/* Estilos para a pagina toda */
+body{
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+/* Estilos para o cabeçalho */
+.Cabecalho {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: #00129e; /* Cor do texto no cabeçalho */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Espaçamento interno do cabeçalho */
+  }
+  
+  /* Estilos para o logotipo no cabeçalho */
+  .LogoHeader img {
+    max-width: 50px; /* Largura máxima para a imagem do logotipo */
+    border-radius: 50%; /* Tornar a imagem redonda */
+  }
+  
+  /* Estilos para o título no cabeçalho */
+  .TitleHeader h1 {
+    font-size: 24px; /* Tamanho da fonte do título */
+    margin: 0; /* Remover margem padrão */
+  }
+  
+  /* Estilos para o link "Logar" no cabeçalho */
+  .BotaoHeader a {
+    text-decoration: none; /* Remover sublinhado do link */
+    background-color: #f0f0f0; /* Cor de fundo do botão */
+    color: #00129e; /* Cor do texto no botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border-radius: 5px; /* Cantos arredondados do botão */
+  }
+  
+  /* Estilize o link quando o cursor estiver sobre ele */
+  .BotaoHeader a:hover {
+    background-color: #00129e; /* Cor de fundo do botão ao passar o mouse */
+    color: #fff; /* Cor do texto no botão ao passar o mouse */
+  }
+
+  /* Estilize a classe "noticias" */
+  .noticias {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+/* Estilize as divs dentro de "noticias" */
+  .noticias div {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+/* Estilize as imagens dentro das divs */
+  .noticias img {
+    width: 500px; /* Defina a largura desejada para as imagens */
+    height: auto; /* A altura se ajustará automaticamente à largura */
+    margin-right: 10px; /* Espaçamento à direita das imagens */
+    padding: 20px;
+  }
+
+  .text1,
+  .text2 {
+    color: #ffffff;
+    margin: 15px;
+    flex-wrap: wrap;
+  }
+
+  .text1 h2,
+  .text2 h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #00129e;
+  }
+
+/* Estilos para o rodapé */
+  .rodape {
+    background-color: #333;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+/* Estilos para os icones de "Redes" no rodapé */ 
+  .Redes i {
+    font-size: 24px; /* Tamanho do ícone */
+    margin-right: 10px; /* Espaçamento entre os ícones */
+  }
+
+/* Estilos para o link "Feito por Dev" na div "Git" */
+  .Git a {
+    text-decoration: none;
+    color: #00129e;
+    font-weight: bold; /* Deixa o texto em negrito */
+  }
+
+
+  

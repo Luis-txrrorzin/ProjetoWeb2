@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../Css/login.css">
+    <link rel="stylesheet" type="text/css" href="../Css/cadastrar.css">
     <link href="../Font/css/all.css" rel="stylesheet">
-    <title>LoginBlogTxrror</title>
+    <title>RegistroBlogTxrror</title>
 </head>
 <body>
     <div class="container">
-        <!-- cabeçalho-->
-        <header class="Cabecalho">
+         <!-- cabeçalho-->
+         <header class="Cabecalho">
             <div class="TitleHeader">
                 <h1>Blog do Txrror</h1>
             </div>
@@ -19,16 +19,21 @@
         <main class="meio">
             <div class="Titulo">
                 <a href="./index.html">Blog Txrror</a>
-                <h3>Acesse o blog</h3>
+                <h3>Registrese no blog</h3>
             </div>
             <div class="Logar">
                 <form></form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" id="username" name="username" placeholder="Digite seu usuario" required>
                     <label for="email">Email:</label>
                     <input type="text" id="email" name="email" placeholder="Digite seu email" required>
                     <label for="password">Senha:</label>
                     <input type="password" id="password" name="password" placeholder="DIgite sua senha" required>
-                    <button type="submit">Entrar</button>
-                    <a href="./cadastrar.html">Cadastrar</a>
+                    <label for="rpassword">RepitaSenha:</label>
+                    <input type="password" id="rpassword" name="rpassword" placeholder="DIgite sua senha novamente" required>
+                    <button type="submit">Cadastrar</button>
                 </form>
             </div>
         </main>

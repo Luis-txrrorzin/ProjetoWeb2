@@ -1,5 +1,5 @@
 /* Estilos para a pagina toda */
-body{
+body {
   margin: 0;
   background-color: #f0f0f0;
 }
@@ -109,5 +109,20 @@ body{
     font-weight: bold; /* Deixa o texto em negrito */
   }
 
+/* Regras de mídia queries para ajustar o layout em telas menores */
+@media screen and (max-width: 768px) {
+  .Cabecalho {
+    flex-direction: column;
+    text-align: center;
+  }
 
+  .BotaoHeader a {
+    margin-top: 10px;
+  }
+
+  .noticias div {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
   

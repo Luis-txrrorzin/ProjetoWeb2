@@ -6,19 +6,19 @@ body {
 
 /* Estilos para o cabeçalho */
 .Cabecalho {
-  background-color: #333; /* Cor de fundo do cabeçalho */
+  background-color: #f0f0f0; /* Cor de fundo do cabeçalho */
   color: #00129e; /* Cor do texto no cabeçalho */
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+  margin: 0;
 }
 
 /* Estilos para o título no cabeçalho */
 .TitleHeader h1 {
-  font-size: 15px; /* Tamanho da fonte do título */
-  margin: 2px;
+  font-size: 50px; /* Tamanho da fonte do título */
 }
 
 /* Estilos para o meio */
@@ -29,7 +29,7 @@ body {
   align-items: center; /* Corrigi de 'align-content' para 'align-items' */
   justify-content: center; /* Adicionei isso para centralizar conteúdo verticalmente */
   padding: 20px; /* Adicionei um preenchimento interno para afastar o conteúdo das bordas */
-  margin: 80px 470px 106px 470px;
+  margin: 30px 470px 60px 470px;
 }
 
 /* Estilos para a classe "Titulo" dentro da seção "main" */
@@ -50,6 +50,8 @@ body {
 
 /* Estilos para a classe "Logar" dentro da seção "main" */
 .Logar {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   background-color: #444;
   padding: 20px;
@@ -65,14 +67,13 @@ body {
 .Logar input[type="text"],
 .Logar input[type="password"] {
   padding: 10px;
-  margin-top: 5px; /* Espaçamento superior para separar os campos de entrada */
+  margin: 10px; /* Espaçamento superior para separar os campos de entrada */
   border: none;
   background-color: #555;
   color: #fff;
 }
 
 .Logar button {
-  width: 100%;
   padding: 10px;
   margin-top: 10px; /* Espaçamento superior para separar o botão dos campos de entrada */
   background-color: #007bff;
@@ -83,25 +84,6 @@ body {
 }
 
 .Logar button:hover {
-  background-color: #0056b3;
-}
-
-/* Estilos para o botão "Cadastrar" dentro da classe "Logar" */
-.Logar a {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  margin-top: 10px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-decoration: none;
-  text-align: center;
-}
-
-.Logar a:hover {
   background-color: #0056b3;
 }
 

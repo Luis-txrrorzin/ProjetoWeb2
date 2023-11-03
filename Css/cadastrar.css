@@ -29,7 +29,7 @@ body {
   align-items: center; /* Corrigi de 'align-content' para 'align-items' */
   justify-content: center; /* Adicionei isso para centralizar conteúdo verticalmente */
   padding: 20px; /* Adicionei um preenchimento interno para afastar o conteúdo das bordas */
-  margin: 30px 470px 30px 470px;
+  margin: 60px 470px 58px 470px;
 }
 
 /* Estilos para a classe "Titulo" dentro da seção "main" */

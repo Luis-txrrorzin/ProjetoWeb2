@@ -6,19 +6,19 @@ body {
 
 /* Estilos para o cabeçalho */
 .Cabecalho {
-  background-color: #333; /* Cor de fundo do cabeçalho */
+  background-color: #f0f0f0; /* Cor de fundo do cabeçalho */
   color: #00129e; /* Cor do texto no cabeçalho */
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+  margin: 0;
 }
 
 /* Estilos para o título no cabeçalho */
 .TitleHeader h1 {
-  font-size: 15px; /* Tamanho da fonte do título */
-  margin: 2px;
+  font-size: 50px; /* Tamanho da fonte do título */
 }
 
 /* Estilos para o meio */
@@ -29,7 +29,7 @@ body {
   align-items: center; /* Corrigi de 'align-content' para 'align-items' */
   justify-content: center; /* Adicionei isso para centralizar conteúdo verticalmente */
   padding: 20px; /* Adicionei um preenchimento interno para afastar o conteúdo das bordas */
-  margin: 60px 470px 58px 470px;
+  margin: 10px 470px 10px 470px;
 }
 
 /* Estilos para a classe "Titulo" dentro da seção "main" */
@@ -37,15 +37,15 @@ body {
   text-align: center;
 }
 
-.Titulo a {
+.Titulo p {
   color: #fff;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .Titulo h3 {
   color: #fff;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 /* Estilos para a classe "Logar" dentro da seção "main" */
@@ -65,7 +65,7 @@ body {
 .Logar input[type="text"],
 .Logar input[type="password"] {
   padding: 10px;
-  margin-top: 5px; /* Espaçamento superior para separar os campos de entrada */
+  margin: 5px; /* Espaçamento superior para separar os campos de entrada */
   border: none;
   background-color: #555;
   color: #fff;

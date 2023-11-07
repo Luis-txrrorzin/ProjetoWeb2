@@ -24,4 +24,4 @@ if(isset($_POST['time1Nome'], $_POST['time2Nome'], $_POST['time1Gols'], $_POST['
     echo "Os campos não foram submetidos. Por favor, preencha o formulário.";
     header("refresh:2,formAposta.php");
 }
-?>
+

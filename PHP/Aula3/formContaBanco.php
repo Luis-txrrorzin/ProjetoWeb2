@@ -35,7 +35,7 @@
 </head>
 
 <body>
-    <h1>Banco do xiru</h1>
+    <h1>Xirubank</h1>
     <div class="opcao">
         <a href="./Cadastrar.php">Cadastrar</a>
         <a href="./Depositar.php">Depositar</a>
@@ -43,5 +43,6 @@
         <a href="./Saldo.php">Imprimir saldo</a>
     </div>
 </body>
+
 
 </html>

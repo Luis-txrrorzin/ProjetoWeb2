@@ -58,7 +58,7 @@
     <div class="container">
         <h2>Cadastro de nova conta</h2>
         <p>Crie sua conta é rapido e facil</p>
-        <p>Vem pro banco xiru</p>
+        <p>Vem pra XiruBank</p>
         <form method="post">
             <input type="text" name="nome" placeholder="Informe o seu nome">
             <input type="number" name="cpf" placeholder="Informe o seu cpf">
@@ -69,7 +69,14 @@
         </form>
     </div>
     <?php
-    include("./Conta.php");
+    include("./config.php");
+
+          
+    if(isset($_SESSION['minha_conta'])){
+     
+        $obj = $_SESSION['minha_conta']; 
+    } 
+
     if(isset($_POST['add'])){
         if(!empty($nome = $_POST['nome'])
             && !empty($cpf = $_POST['cpf'])
@@ -79,15 +86,15 @@
         $cpf = $_POST['cpf'];
         $numConta = $_POST['numconta'];
         $saldo = $_POST['saldo'];
-        $obj = new Conta();
         $obj->setNome($nome);
         $obj->setCpf($cpf);
         $obj->setNumConta($numConta);
         $obj->setSaldo($saldo);
         $obj->imprimirDados();
-            header("refresh:3,formContaBanco.php");
+            header("refresh:8,formContaBanco.php");
     }else{
         echo"Não deixe os campos em branco(br)";
+        header("refresh:3,formContaBanco.php");
     }
     }
     ?>

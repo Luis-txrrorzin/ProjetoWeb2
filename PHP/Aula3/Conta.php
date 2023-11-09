@@ -6,7 +6,7 @@ Class Conta{
     private $saldo;
 
 function __construct(){
-    $this->nome = "Luis dev";
+    $this->nome = "Luis dev: ";
     $this->cpf = "05384595060";
     $this->numConta = 123-4;
     $this->saldo = 50;
@@ -40,7 +40,7 @@ function __construct(){
         return $this->cpf;
     }
     function imprimirSaldo(){
-        echo"Saldo disponivel R$:".$this->getSaldo();
+        echo"<br>Saldo disponivel R$:".$this->getSaldo();
     }
     function imprimirDados(){
         echo"<br><h1 style='color:red; text-align:left;'>Cadastrado com sucesso</h1><br>";

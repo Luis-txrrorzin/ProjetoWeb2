@@ -21,70 +21,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adicionar Usuario</title>
     <style>
-        body {
-            background-color: #f0f0f0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
+         body {
             font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         h1 {
             text-align: center;
-            margin: 10px;
+            background-color: #8B0000; 
+            color: #fff;
+            padding: 15px;
+            margin: 5px;
+            border: 1px solid #8B0000; 
         }
 
         form {
-            width: 300px;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             margin-top: 20px;
         }
 
         label {
-            display: block;
-            margin-bottom: 8px;
+            margin-top: 10px;
+            color: #333;
         }
 
         input {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 15px;
-            box-sizing: border-box;
+            padding: 10px;
+            margin-top: 5px;
         }
 
         input[type="submit"] {
-            background-color: #007BFF;
-            color: white;
-            border: none;
-            padding: 10px;
-            border-radius: 5px;
+            background-color: #8B0000; 
+            color: #fff;
             cursor: pointer;
         }
 
         input[type="submit"]:hover {
-            background-color: #0056b3;
+            background-color: #580000; 
         }
 
         a {
-            display: inline-block;
-            margin: 15px;
-            text-align: center;
-            color: #007BFF;
             text-decoration: none;
-            border: 1px solid #007BFF;
-            padding: 8px 16px;
-            border-radius: 5px;
-            transition: background-color 0.3s, color 0.3s;
+            color: #8B0000; 
+            margin-top: 10px;
         }
 
         a:hover {
-            background-color: #0056b3;
-            color: white;
+            text-decoration: underline;
         }
     </style>
 </head>

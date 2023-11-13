@@ -11,26 +11,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela Inicial</title>
     <style>
-        body {
-            background-color: #f0f0f0; 
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
             margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         h1 {
             text-align: center;
-            margin: 10px;
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            margin: 0px 0px 10px 0px;
+            width: 100%;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 10px;
+            margin-bottom: 10px;
+            color: #fff;
+            text-align: center;
+            background-color: #8B0000; 
+            display: block;
+        }
+
+        a:hover {
+            background-color: #580000; 
         }
 
         table {
+            width: 80%;
             border-collapse: collapse;
-            width: 60%;
-            margin: 10px; 
-            background-color: #fff; 
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+            margin: 20px;
         }
 
         th, td {
@@ -40,30 +57,47 @@
         }
 
         th {
-            background-color: #4CAF50; 
-            color: white;
+            background-color: #333;
+            color: #fff;
         }
 
-        a {
-            display: inline-block;
-            padding: 8px 16px;
-            text-align: center;
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .action-buttons {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .edit-button, .delete-button {
+            padding: 5px 10px;
+            color: #fff;
             text-decoration: none;
-            background-color: #007BFF; 
-            color: white;
-            border-radius: 4px;
-            transition: background-color 0.3s;
-            margin: 10px;
         }
 
-        a:hover {
-            background-color: #0056b3; 
+        .edit-button {
+            background-color: #8B0000; 
+        }
+
+        .edit-button:hover {
+            background-color: #580000; 
+        }
+
+        .delete-button {
+            background-color: #333; 
+        }
+
+        .delete-button:hover {
+            background-color: #000; 
         }
     </style>
 </head>
 <body>
     <h1>TELA INICIAL</h1>
+    <div class="adicionar">
     <a href="add.php">Adicionar Usuário</a>
+    </div>
     <table>
         <tr>
             <th>Nome</th>
